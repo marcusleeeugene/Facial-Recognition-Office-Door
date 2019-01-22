@@ -1,0 +1,16 @@
+https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+
+https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826
+
+
+To Enter CV virtual environment:
+source ~/.profile
+workon cv
+
+
+Open python programs
+cd "/home/pi/Desktop/PI CODES"
+sudo python filename.py
+
+
+DISPLAY=:0 sudo python datagathering.py
