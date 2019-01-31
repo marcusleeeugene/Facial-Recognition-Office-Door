@@ -11,7 +11,9 @@ Steps to get the system up and running:
 * Remember to enter CV mode before running the program with the following codes: *
 
    source ~/.profile 
+   
    workon cv
+   
 1) Take images of the person whose identity is to be trained by running "datagathering.py"
 2) Train the system with the images taken with "trainer.py"
 3) Start the facial recognition system with "recognizer.py"
