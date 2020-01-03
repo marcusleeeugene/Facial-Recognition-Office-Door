@@ -2,12 +2,16 @@
 
 A facial recognition system that grants access to an office door when the person is authorized to enter.
 
-How it works:
+<a href="https://drive.google.com/open?id=1BEZa8GEsrteS5V97UVClIyE-wpqTfFzl">
+   - Click here to see a video of it doing its job! -
+</a>
+
+## How it works:
 1) Person stands infront of camera
 2) If person is granted access: Relay triggered to open office door, LCD screen welcomes the person
    If not denied access: Relay does not trigger, system continues to determine if the person is authorized
    
-Steps to get the system up and running:
+## Steps to get the system up and running:
 * Remember to enter CV mode before running the program with the following codes: *
 
    source ~/.profile 
@@ -18,13 +22,13 @@ Steps to get the system up and running:
 2) Train the system with the images taken with "trainer.py"
 3) Start the facial recognition system with "recognizer.py"
 
-HardWare:
+## HardWare:
 - Raspberry Pi 3 Model B+
 - Raspberry Pi Camera Module
 - HD44780 I2C LCD (16×02 Character)
 - Relay
 
-Takeaway:
+## Takeaway:
 - Using FileZilla as SSH for FTP with Raspberry Pi
 - SSH into Raspberry Pi and working remotely through MACOS terminal
 - Terminal commands
